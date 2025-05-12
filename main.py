@@ -144,9 +144,9 @@ def create_interactive_robot():
     ax_slider3 = plt.axes([0.2, 0.1, 0.6, 0.03])
     
     # Crear los sliders
-    slider1 = Slider(ax_slider1, 'Theta1', -np.pi, np.pi, valinit=0)
-    slider2 = Slider(ax_slider2, 'Theta2', -np.pi/2, np.pi/2, valinit=0)
-    slider3 = Slider(ax_slider3, 'Theta3', -np.pi/2, np.pi/2, valinit=0)
+    slider1 = Slider(ax_slider1, 'Rotación', -np.pi, np.pi, valinit=0)
+    slider2 = Slider(ax_slider2, 'Articulación 1', -np.pi/2, np.pi/2, valinit=0)
+    slider3 = Slider(ax_slider3, 'Articulación 2', -np.pi/2, np.pi/2, valinit=0)
     
     # Función de actualización
     def update(val):
